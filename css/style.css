@@ -1,0 +1,176 @@
+:root {
+  --iris: #4d5ae5;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --light: #ffffff;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+/*_______HEADER_______*/
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+
+.studio {
+  color: #2e2f42;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: #4d5ae5;
+}
+
+.contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #434455;
+  text-decoration: none;
+}
+
+.contacts:hover {
+  color: #4d5ae5;
+}
+
+/*_______CARD_______ */
+
+.service {
+  color: #ffffff;
+  background-color: #2e2f42;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 56px;
+  line-height: calc(60 / 56);
+}
+
+.service-btn {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  background: #4d5ae5;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.service-btn :hover {
+  background: #404bbf;
+}
+
+/*_______OUR ADVENTAGES_______*/
+
+.quality {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: #2e2f42;
+}
+
+.descript {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #434455;
+}
+
+/*_______OUR WORK_______ */
+.work {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  color: #2e2f42;
+}
+
+/*_______TEAM_______ */
+.our-team {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  color: #2e2f42;
+}
+
+.personal {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: #2e2f42;
+}
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+
+/*_______FOOTER_______ */
+.footer {
+  background: #2e2f42;
+}
+
+.bottom {
+  color: #f4f4fd;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #e7e9fc;
+}
+
+/* _______________________PORTFOLIO______________________ */
+
+/* _______FILTERS_______ */
+.filters {
+  background: #f4f4fd;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.filters:hover,
+.filters:focus {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.row {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: #2e2f42;
+}
+
+.row-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #434455;
+}
